@@ -1,0 +1,362 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Women’s Movement | Rights Conscious 60's Project</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        scroll-behavior:smooth;
+    }
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height:1.6;
+        background:#f7f7f7;
+        color:#222;
+    }
+
+    header{
+        background:linear-gradient(to right,#8e44ad,#c0392b);
+        color:white;
+        padding:60px 20px;
+        text-align:center;
+    }
+
+    header h1{
+        font-size:3rem;
+        margin-bottom:10px;
+    }
+
+    nav{
+        background:#222;
+        padding:15px;
+        position:sticky;
+        top:0;
+        z-index:1000;
+    }
+
+    nav ul{
+        display:flex;
+        justify-content:center;
+        list-style:none;
+        flex-wrap:wrap;
+    }
+
+    nav ul li{
+        margin:10px 15px;
+    }
+
+    nav ul li a{
+        color:white;
+        text-decoration:none;
+        font-weight:bold;
+        transition:0.3s;
+    }
+
+    nav ul li a:hover{
+        color:#ffb3ff;
+    }
+
+    section{
+        padding:60px 10%;
+        background:white;
+        margin:20px auto;
+        width:90%;
+        border-radius:10px;
+        box-shadow:0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2{
+        color:#8e44ad;
+        margin-bottom:20px;
+        font-size:2rem;
+    }
+
+    .leader-grid{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+        gap:20px;
+    }
+
+    .card{
+        background:#f0f0f0;
+        padding:20px;
+        border-radius:10px;
+        transition:0.3s;
+    }
+
+    .card:hover{
+        transform:translateY(-5px);
+        background:#fbeaff;
+    }
+
+    .timeline{
+        border-left:4px solid #8e44ad;
+        padding-left:20px;
+    }
+
+    .timeline-item{
+        margin-bottom:30px;
+    }
+
+    .quote{
+        background:#fce4ff;
+        border-left:5px solid #8e44ad;
+        padding:15px;
+        margin:20px 0;
+        font-style:italic;
+    }
+
+    footer{
+        background:#222;
+        color:white;
+        text-align:center;
+        padding:20px;
+        margin-top:20px;
+    }
+
+    img{
+        width:100%;
+        border-radius:10px;
+        margin-top:15px;
+    }
+
+    .hero-text{
+        max-width:800px;
+        margin:auto;
+    }
+
+</style>
+</head>
+<body>
+
+<header>
+    <div class="hero-text">
+        <h1>The Women’s Movement</h1>
+        <p>The Rights Conscious 60’s (1960–1973)</p>
+        <p>How second-wave feminism transformed American society</p>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#goals">Goals</a></li>
+        <li><a href="#leaders">Leaders</a></li>
+        <li><a href="#events">Key Events</a></li>
+        <li><a href="#impact">Impact</a></li>
+    </ul>
+</nav>
+
+<section id="about">
+    <h2>Who Were They?</h2>
+
+    <p>
+        The Women’s Movement, also known as the second wave of feminism,
+        took place primarily from the 1960s through the 1980s.
+        Feminists fought for equal rights in the workplace, education,
+        politics, and society. Women were often viewed as inferior to men
+        and were expected to stay at home rather than pursue careers.
+    </p>
+
+    <p>
+        Activists organized protests, formed advocacy groups,
+        and demanded legal reforms. Their work created many of the rights
+        and opportunities women experience today.
+    </p>
+
+    <div class="quote">
+        “The problem that has no name” — Betty Friedan,
+        <strong>The Feminine Mystique</strong> (1963)
+    </div>
+
+    <p>
+        This quote became one of the most famous ideas of the movement.
+        Friedan described the unhappiness many women felt being limited
+        to the role of housewife despite being told they should feel fulfilled.
+        Her book inspired thousands of women to speak out and demand change.
+    </p>
+</section>
+
+<section id="goals">
+    <h2>Goals of the Movement</h2>
+
+    <ul>
+        <li>Equal pay for equal work</li>
+        <li>Equal opportunities in careers and education</li>
+        <li>Protection against discrimination based on sex</li>
+        <li>Reproductive rights and access to birth control</li>
+        <li>Greater political representation for women</li>
+        <li>Better treatment and equality for women of color</li>
+    </ul>
+
+    <br>
+
+    <p>
+        Women were commonly viewed as secretaries or assistants instead of
+        professionals such as doctors or lawyers. In 1960, only 20 of the
+        537 members of Congress were women, despite women making up nearly
+        half of the U.S. population.
+    </p>
+
+    <p>
+        Women of color faced even harsher discrimination. Black women
+        were often paid less both because they were women and because
+        of racial discrimination. Nearly 60% of employed Black women
+        worked in service jobs such as maids, cooks, and laundresses.
+    </p>
+
+    <div class="quote">
+        “There can be no liberation for half the human race.”
+    </div>
+
+    <p>
+        Feminists believed society could not truly be fair if women
+        were denied equal opportunities and respect.
+    </p>
+</section>
+
+<section id="leaders">
+    <h2>Key Leaders</h2>
+
+    <div class="leader-grid">
+
+        <div class="card">
+            <h3>Betty Friedan</h3>
+            <p>
+                Betty Friedan wrote <strong>The Feminine Mystique</strong>,
+                which challenged traditional expectations for women.
+                She later founded the National Organization for Women (NOW),
+                one of the most influential feminist organizations in America.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Elizabeth Cady Stanton</h3>
+            <p>
+                Elizabeth Cady Stanton was an important early activist
+                for women’s rights and helped inspire later feminist movements.
+                She fought for voting rights and equality for women in society.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Gloria Steinem</h3>
+            <p>
+                Gloria Steinem co-founded <strong>Ms. Magazine</strong> in 1971.
+                She became one of the movement’s most recognizable voices
+                and advocated for equality for all women, including women of color.
+            </p>
+
+            <div class="quote">
+                “Women are not a minority. We are half the people.”
+            </div>
+
+            <p>
+                This statement reflected Steinem’s belief that women deserved
+                equal treatment because they represented half of society.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="events">
+    <h2>Key Events</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <h3>1960 – Approval of Birth Control Pills</h3>
+            <p>
+                The approval of birth control gave women greater control over
+                their reproductive lives and careers. By 1965, nearly 40% of
+                young married women were using the pill.
+            </p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>1964 – Civil Rights Act</h3>
+            <p>
+                The Civil Rights Act banned discrimination based on race,
+                religion, national origin, and sex. This law became one of
+                the most important legal victories for women’s rights.
+            </p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>1966 – National Organization for Women (NOW)</h3>
+            <p>
+                Betty Friedan and other activists founded NOW after the Equal
+                Employment Opportunity Commission failed to address
+                discrimination against women.
+            </p>
+
+            <div class="quote">
+                “To bring women into full participation in the mainstream
+                of American society.”
+            </div>
+
+            <p>
+                This mission statement from NOW became a guiding principle
+                for the women’s movement and served as a primary source
+                showing the organization’s goals.
+            </p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>1972 – Title IX</h3>
+            <p>
+                Title IX prohibited sex discrimination in schools and
+                educational programs. It greatly expanded opportunities
+                for women in academics and sports.
+            </p>
+        </div>
+
+        <div class="timeline-item">
+            <h3>Equal Pay Act</h3>
+            <p>
+                The Equal Pay Act prohibited employers from paying women
+                less than men for equal work under similar conditions.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="impact">
+    <h2>Impact on Society</h2>
+
+    <p>
+        The Women’s Movement changed American society permanently.
+        Women gained more opportunities in education, politics,
+        healthcare, athletics, and business.
+    </p>
+
+    <p>
+        Modern careers such as healthcare support, office administration,
+        and leadership positions are far more accessible to women today
+        because of the work done by feminist activists in the 1960s and 1970s.
+    </p>
+
+    <p>
+        The movement also inspired future activism for equal rights
+        and increased awareness of issues such as domestic violence,
+        workplace discrimination, and representation in government.
+    </p>
+
+</section>
+
+<footer>
+    <p>Rights Conscious 60’s Project | The Women’s Movement</p>
+</footer>
+
+</body>
+</html>
+```
